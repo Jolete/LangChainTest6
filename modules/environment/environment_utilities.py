@@ -27,7 +27,7 @@ def load_environment_variables():
     for key in env_vars:
         env_vars[key] = os.environ.get(key)
 
-    # env_vars["GOOGLE_API_KEY"] = getpass.getpass("AIzaSyB6w4q3fWx9SJ3OSWqOIhMgIoq0o5MMIRk")
+    # env_vars["GOOGLE_API_KEY"] = env_vars["GOOGLE_API_KEY"]
 
     return env_vars
 
